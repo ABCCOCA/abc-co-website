@@ -41,3 +41,46 @@
     
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC & Co Chartered Accountants</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
+        header { background: #333; color: white; padding: 15px; font-size: 24px; }
+        .container { padding: 20px; }
+        .services { display: flex; justify-content: center; flex-wrap: wrap; }
+        .service { background: white; margin: 10px; padding: 15px; width: 250px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        footer { background: #333; color: white; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        .contact { margin-top: 20px; }
+        .chatbot-container { position: fixed; bottom: 20px; right: 20px; width: 350px; height: 430px; border: none; box-shadow: 0 0 10px rgba(0,0,0,0.2); border-radius: 10px; overflow: hidden; }
+    </style>
+</head>
+<body>
+    <header>ABC & Co Chartered Accountants</header>
+    
+    <div class="container">
+        <h2>Welcome to ABC & Co</h2>
+        <p>Providing expert accounting, taxation, and financial advisory services.</p>
+        
+        <h3>Our Services</h3>
+        <div class="services">
+            <div class="service"><h4>Taxation</h4><p>Expert tax solutions for individuals & businesses.</p></div>
+            <div class="service"><h4>Auditing</h4><p>Comprehensive financial audits for compliance.</p></div>
+            <div class="service"><h4>Financial Advisory</h4><p>Strategic financial planning for growth.</p></div>
+            <div class="service"><h4>Bookkeeping</h4><p>Accurate record-keeping for businesses.</p></div>
+        </div>
+        
+        <h3 class="contact">Contact Us</h3>
+        <p>Email: contact@abcandco.com | Phone: +123 456 7890</p>
+    </div>
+    
+    <footer>&copy; 2025 ABC & Co Chartered Accountants</footer>
+    
+    <!-- Chatbot Integration -->
+    <iframe class="chatbot-container" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/YOUR-CHATBOT-ID"></iframe>
+    
+</body>
+</html>
